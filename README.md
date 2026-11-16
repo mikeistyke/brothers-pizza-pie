@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Brothers Pizza
 
-# Run and deploy your AI Studio app
+Plain HTML and CSS for https://brotherspizzapie.com. No React, Vite, npm dependencies, Tailwind CDN, or compilation.
 
-This contains everything you need to run your app locally.
+## Edit and preview
 
-View your app in AI Studio: https://ai.studio/apps/79455489-6d50-42d5-9177-bec0ba9c3f65
+All published files are in public/. Edit public/index.html for content and public/styles.css for styling. Open public/index.html directly or serve public/ with any static web server. Images are in public/assets/.
 
-## Run Locally
+Gallery filters use CSS radio controls. Navigation and expandable details use native HTML. The site works without JavaScript. The dish illustrations are retained from the original design, not actual menu photographs. Confirm restaurant hours and replace illustrations with approved photos as needed.
 
-**Prerequisites:**  Node.js
+## Cloudflare Pages
 
+- Repository: mikeistyke/brothers-pizza-pie
+- Production branch: main
+- Framework preset: None
+- Build command: exit 0
+- Build output directory: public
+- Root directory: blank (repository root)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+No environment variables or API keys are required. Push to main to trigger the existing Cloudflare Pages Git integration. The custom domain is brotherspizzapie.com.
+
+The previous AI Studio export remains recoverable in Git history. It required React/Vite, had conflicting package versions, and kept source and assets inside a ZIP instead of deployable files.

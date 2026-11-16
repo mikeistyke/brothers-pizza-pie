@@ -1,6 +1,0 @@
-{
-  "name": "Brothers Pizza Pie",
-  "description": "Family-owned casual pizzeria in Staunton, VA specializing in authentic hand-tossed pies and appetizers. Call (540) 885-8787 to order.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

@@ -1,0 +1,6 @@
+# Brothers Pizza (brotherspizzapie.com) — Robots Configuration
+# Note: Replace the Sitemap domain if your live Cloudflare Pages custom domain differs.
+User-agent: *
+Allow: /
+
+Sitemap: https://brotherspizzapie.com/sitemap.xml
